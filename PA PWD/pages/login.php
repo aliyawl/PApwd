@@ -6,8 +6,8 @@
     <title>Login</title>
 </head>
 <body align="center">
-    <h1>Login</h1>
-    <form action="../proses/cek-login.php" method="post">
+    <h1 class="header-login">Login</h1>
+    <form action="../proses/cek-login.php" method="post" class="data-login">
         <input type="text" name="username" placeholder="Masukkan username"><br>
         <input type="password" name="password" placeholder="Masukkan password"><br><br>
         <input type="submit" value="Login"><br>
