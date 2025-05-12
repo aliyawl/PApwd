@@ -3,14 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="../assets/style.css">
+    
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+
 </head>
-<body align="center">
-    <h1>Register</h1>
-    <form action="../proses/cek-register.php" method="post">
-        <input type="text" name="username" placeholder="Masukkan username"><br>
-        <input type="password" name="password" placeholder="Masukkan password"><br><br>
-        <input type="submit" value="Register">
-    </form>
+<body class ="login">
+
+    <div class="login-container">
+        <center><h1> Register</h1></center>
+        <form action="../proses/cek-register.php" method="post">
+            <label for="nama" class="form-label">Email</label>
+                <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required> <br>
+
+        <label for="namapassword" class="form-label">Password</label>
+            <input type="password" class="form-control" id="nama" placeholder="Masukkan namapassword Anda" required> <br>
+            <input class="btn btn-primary" type="submit" value="Register"> 
+            <br> <br> <h6>Already have an account? <a href="login.php">login</a> </h6>            
+        </form>
+    </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
