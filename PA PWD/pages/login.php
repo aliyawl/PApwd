@@ -16,11 +16,11 @@
     <div class="login-container">
         <center><h1> Login</h1></center>
         <form action="../proses/cek-login.php" method="post">
-            <label for="nama" class="form-label">Email</label>
-                <input type="text" class="form-control" id="nama" placeholder="Masukkan nama Anda" required> <br>
+            <label for="nama" class="form-label">Username</label>
+                <input type="text" class="form-control" id="nama" placeholder="" required> <br>
 
         <label for="namapassword" class="form-label">Password</label>
-            <input type="password" class="form-control" id="nama" placeholder="Masukkan namapassword Anda" required> <br>
+            <input type="password" class="form-control" id="nama" placeholder="" required> <br>
             <input class="btn btn-primary" type="submit" value="Login"> 
             <br> <br> <h6>Don't have an account? <a href="register.php">register</a> </h6>    
         </form>
