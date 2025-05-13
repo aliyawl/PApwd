@@ -26,7 +26,7 @@
         $_SESSION['username'] = $username;
         echo "<script>
             alert('Login Berhasil');
-            window.location.href = '../pages/home.php';
+            window.location.href = '../pages/landing.php';
             </script>";
     } else {
         //kalau ngga ada maka login nya gagal:(
